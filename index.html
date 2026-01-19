@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Atividade</title>
+    <link rel="stylesheet" href="css/spotify.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-brands fa-spotify"></i> Spotify
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><i class="fa-solid fa-house"></i> Início</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> Buscar</li>
+                    <li><i class="fa-solid fa-book"></i> Sua Biblioteca</li>
+                </ul>
+            </nav>
+            <div class="playlists">
+                <p>PLAYLISTS</p>
+                <ul>
+                    <li><div class="plus-box"><i class="fa-solid fa-plus"></i></div> Criar playlist</li>
+                    <li><div class="heart-box"><i class="fa-solid fa-heart"></i></div> Músicas Curtidas</li>
+                </ul>
+                <hr>
+                <div class="playlist-scroll">
+                    <p>Funk Hits</p>
+                    <p>Rock Classics</p>
+                    <p>Coding Mode</p>
+                    <p>Relax</p>
+                    <p>Top Brasil</p>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <header class="top-bar">
+                <div class="nav-arrows">
+                    <button class="circle-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="circle-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="user-menu">
+                    <button class="btn-upgrade">Ver Planos Premium</button>
+                    <div class="profile-circle"><i class="fa-solid fa-user"></i></div>
+                </div>
+            </header>
+
+            <div class="content-padding">
+                <h2>Bom dia</h2>
+                <section class="recent-grid">
+                    <div class="recent-card">
+                        <img src="https://placehold.co/60x60/333/FFF?text=Liked" alt="Músicas Curtidas">
+                        <span>Músicas Curtidas</span>
+                    </div>
+                    <div class="recent-card">
+                        <img src="https://placehold.co/60x60/555/FFF?text=Rock" alt="Rock">
+                        <span>This is Rock</span>
+                    </div>
+                    <div class="recent-card">
+                        <img src="https://placehold.co/60x60/777/FFF?text=Pod" alt="Podcast">
+                        <span>NerdCast</span>
+                    </div>
+                    <div class="recent-card">
+                        <img src="https://placehold.co/60x60/444/FFF?text=Mix" alt="Daily Mix">
+                        <span>Daily Mix 1</span>
+                    </div>
+                </section>
+
+                <h2>Feito para Ysac</h2>
+                <section class="horizontal-scroll">
+                    <div class="card">
+                        <img src="https://placehold.co/150x150/222/FFF?text=Mix+1" alt="Mix 1">
+                        <h3>Daily Mix 1</h3>
+                        <p>Matuê, Teto e mais...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://placehold.co/150x150/333/FFF?text=Mix+2" alt="Mix 2">
+                        <h3>Daily Mix 2</h3>
+                        <p>Linkin Park, SOAD...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://placehold.co/150x150/444/FFF?text=Mix+3" alt="Mix 3">
+                        <h3>Descobertas</h3>
+                        <p>Novidades da semana</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://placehold.co/150x150/555/FFF?text=Mix+4" alt="Mix 4">
+                        <h3>No Repeat</h3>
+                        <p>Suas favoritas de sempre</p>
+                    </div>
+                </section>
+
+                <h2>Seus programas</h2>
+                <section class="horizontal-scroll">
+                    <div class="card rounded"> <img src="https://placehold.co/150x150/111/FFF?text=Pod+1" alt="Pod 1">
+                        <h3>Tech News</h3>
+                        <p>Show • Tecnologia</p>
+                    </div>
+                    <div class="card rounded">
+                        <img src="https://placehold.co/150x150/222/FFF?text=Pod+2" alt="Pod 2">
+                        <h3>DevTalks</h3>
+                        <p>Show • Programação</p>
+                    </div>
+                    <div class="card rounded">
+                        <img src="https://placehold.co/150x150/333/FFF?text=Pod+3" alt="Pod 3">
+                        <h3>Café Java</h3>
+                        <p>Show • Carreira</p>
+                    </div>
+                    <div class="card rounded">
+                        <img src="https://placehold.co/150x150/444/FFF?text=Pod+4" alt="Pod 4">
+                        <h3>Mundo AI</h3>
+                        <p>Show • Inteligência</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="now-playing-bar">
+        <div class="song-info">
+            <img src="https://placehold.co/50x50/333/FFF?text=Capa" alt="Capa">
+            <div class="text">
+                <h4>Nome da Música</h4>
+                <p>Nome do Artista</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="player-controls">
+            <div class="buttons">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <div class="play-circle"><i class="fa-solid fa-play"></i></div>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="progress-bar">
+                <span>0:45</span>
+                <div class="bar-bg"><div class="bar-fill"></div></div>
+                <span>3:20</span>
+            </div>
+        </div>
+        <div class="volume-controls">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <div class="vol-bar"></div>
+        </div>
+    </footer>
+
+    <nav class="mobile-nav">
+        <div class="nav-item active">
+            <i class="fa-solid fa-house"></i>
+            <span>Início</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Buscar</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Biblioteca</span>
+        </div>
+    </nav>
+
+</body>
+</html>
